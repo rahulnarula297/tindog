@@ -1,0 +1,167 @@
+#title {
+ background-color: #ff4c68;
+ }
+ body{
+   font-family: 'Montserrat', sans-serif;
+ }
+
+.container-fluid{
+  padding:3% 15%;
+}
+
+ .heading1{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900;
+   font-size:3.5rem;
+   line-height: 1.5;
+   margin-top: 75px;
+   color: white;
+ }
+ p{
+   color: grey;
+ }
+ h2{
+   font-family: 'Montserrat';
+   font-weight: bold;
+   line-height: 1.5;
+   font-size: 3rem;
+ }
+ /* navigation bar */
+ .navbar-brand{
+   font-family: Ubuntu;
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+
+ .navbar{
+   padding: 0 0 4.5rem 0 ;
+ }
+ .nav-item{
+   padding: 0 12px;
+ }
+ .nav-link{
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+ }
+
+ .download-button{
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+ }
+
+.title-img{
+  width: 60%;
+  /* for rotating a image using function rotate() in transform property */
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+
+/* features section */
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  /* z-index:1 we can set this also but without this it also works as per the flowchart */
+  background-color: white;
+}
+.featurebox{
+  text-align: center;
+  padding: 5%
+}
+/* .row-2{
+  margin: 8rem 0 8rem 0;
+} */
+.fh3{
+  font-family:'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  /* margin-left: 40px */
+  margin-top: 20px;
+}
+.ficon{
+  color: #ef8172;
+}
+.ficon:hover{
+  color: #ff4c68;
+}
+
+
+/* testimonials section */
+#testimonials{
+  background-color: #ef8172;
+
+  color: white;
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.timg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+/* press section */
+
+#press{
+  background: #ef8172;
+  text-align: center;
+  padding: 25px;
+}
+.pimg{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+ /* pricing section */
+ #pricing{
+   padding: 100px;
+   text-align: center;
+ }
+ .pcol{
+   padding: 20px;
+ }
+
+/* media query = mobile vs desktop view */
+
+@media (max-width:1028px) {
+  #title{
+    text-align:center;
+
+  }
+  .title-img{
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* second last section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding:  7% 15% ;
+}
+.ch3{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: 30px;
+}
+
+/* last section */
+
+#footer{
+  background-color: white;
+  padding: 150px 50px 0 50px;
+  text-align: center;
+
+}
+.iconf{
+  margin-right: 20px;
+}
